@@ -1,0 +1,14 @@
+La suma de 2 + 2 es igual a 4      #para verificar dentro de la carpeta python -m doctest test.txt y python -m doctest -v test.txt para ver todos los tests
+>>> 2 + 2
+4
+
+>>> def suma(*args):
+...    return sum(args)
+
+La suma de 10 + 20 + 30 es igaul a 60
+>>> suma(10,20,30)
+60
+
+>>> from algoritmos import fibonacci
+>>> fibonacci(12)
+144
