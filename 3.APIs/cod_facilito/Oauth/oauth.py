@@ -1,5 +1,5 @@
 import requests
-#https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/  #1
+#https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/ #1
 client_id = '807fb01066ec696dba0d'    #1 Se crea una sesion en oath y se consigue client_id y client_secret
 client_secret = '2499f0004a310212f255291302a90450901ef72c'
 #https://github.com/login/oauth/authorize?client_id=807fb01066ec696dba0d&scope=repo  #1 Se copia de la pagina oath, 
